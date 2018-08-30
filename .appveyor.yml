@@ -16,7 +16,7 @@ environment:
 
 install:
   - ps: Install-Product node 8 x64
-  - appveyor-retry npm install
+  - appveyor-retry npm install --verbose
   - npm install -g sfdx-cli
   - npm install -g codecov
   - npm install -g junit-merge
