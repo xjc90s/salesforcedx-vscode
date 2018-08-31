@@ -45,6 +45,6 @@
   },
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@types/node": "8.9.4"
+    "@types/node": "8.9.3"
   }
 }
